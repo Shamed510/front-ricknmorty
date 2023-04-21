@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 /* Style Components */
-const Card = styled.div`
+/* const Card = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -39,6 +39,64 @@ const Image = styled.img`
   width: auto;
   height: auto;
   border-radius: 10px;
+`; */
+
+const Card = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  border: 4px solid #fff;
+  border-radius: 10px;
+  background-color: #0041ab;
+  font-family: 'Arial', sans-serif;
+  width: 100%;
+  box-sizing: border-box;
+  flex-direction: row;
+  box-shadow: 0 10px 6px rgba(0, 0, 0, 0.1);
+  padding: 12px;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+`;
+
+const Image = styled.img`
+  margin-right: 20px;
+  margin-left: 20px;
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  border-radius: 10px;
+
+  @media (max-width: 768px) {
+    margin: 0;
+    max-width: 100%;
+  }
+`;
+
+const Name = styled.p`
+  font-weight: bold;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-family: Ink Free;
+  text-align: center;
+
+  @media (max-width: 768px) {
+    font-size: 28px;
+    margin-top: 20px;
+  }
+`;
+
+const Info = styled.p`
+  margin: 10px;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: Consolas;
+
+  @media (max-width: 768px) {
+    font-size: 18px;
+  }
 `;
 
 function CardPersonaje(props) {
