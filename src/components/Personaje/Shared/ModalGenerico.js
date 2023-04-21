@@ -32,6 +32,11 @@ const Card = styled.div`
   flex-direction: row;
   box-shadow: 0 10px 6px rgba(0, 0, 0, 0.1);
   padding: 12px;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    padding: 20px;
+  }
 `;
 
 const Info = styled.p`
@@ -47,6 +52,11 @@ const Name = styled.p`
   text-transform: uppercase;
   font-family: Ink Free;
   text-align: center;
+  margin-bottom: 20px;
+
+  @media (max-width: 768px) {
+    margin-bottom: 10px;
+  }
 `;
 
 const Image = styled.img`
@@ -55,6 +65,12 @@ const Image = styled.img`
   width: auto;
   height: auto;
   border-radius: 10px;
+
+  @media (max-width: 768px) {
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
 `;
 
 export const ModalGenerico = ({ onClose, personaje }) => {

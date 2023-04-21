@@ -2,44 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 
 /* Style Components */
-/* const Card = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 30px;
-  border: 4px solid #fff;
-  border-radius: 10px;
-  background-color: #0041ab;
-  font-family: 'Arial', sans-serif;
-  width: 100%;
-  box-sizing: border-box;
-  flex-direction: row;
-  box-shadow: 0 10px 6px rgba(0, 0, 0, 0.1);
-  padding: 12px;
-`;
-
-const Info = styled.p`
-  margin: 10px;
-  font-weight: bold;
-  font-size: 24px;
-  font-family: Consolas;
-`;
-
-const Name = styled.p`
-  font-weight: bold;
-  font-size: 40px;
-  text-transform: uppercase;
-  font-family: Ink Free;
-  text-align: center;
-`;
-
-const Image = styled.img`
-  margin-right: 20px;
-  margin-left: 20px;
-  width: auto;
-  height: auto;
-  border-radius: 10px;
-`; */
 
 const Card = styled.div`
   display: flex;
